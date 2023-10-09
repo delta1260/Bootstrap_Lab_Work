@@ -1,0 +1,745 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    
+        <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.7.1/font/bootstrap-icons.min.css"
+        integrity="sha512-WYaDo1TDjuW+MPatvDarHSfuhFAflHxD87U9RoB4/CSFh24/jzUHfirvuvwGmJq0U7S9ohBXy4Tfmk2UKkp2gA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <title>MLB Major league Baseball</title>
+</head>
+
+
+<body>
+    
+    <header>
+
+        <nav class="navbar navbar-expand-lg bg-white">
+      
+            <div class="container">
+               
+                <a class="navbar-brand text-custom-title" href="#">Major League Baseball</a>
+
+               
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active text-custom" aria-current="page" href="#home">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-custom" href="#information">Information</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-custom" href="#coaches">Our Coaches</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-custom" href="#faq">FAQ</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-custom" href="#hall-of-fame">Hall Of Fame</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-custom" href="#contact">Contact Us</a>
+                        </li>
+                    </ul>
+                </div> 
+            </div> 
+        </nav>
+
+        <section id="features" class="d-none d-md-block">
+           
+            <div id="carouselFeatures" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselFeatures" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1">
+                    </button>
+                    <button type="button" data-bs-target="#carouselFeatures" data-bs-slide-to="1" aria-label="Slide 2">
+                    </button>
+                    <button type="button" data-bs-target="#carouselFeatures" data-bs-slide-to="2" aria-label="Slide 3">
+                    </button>
+                    
+                    <button type="button" data-bs-target="#carouselFeatures" data-bs-slide-to="3" aria-label="Slide 4">
+                    </button>
+                </div> 
+                <div class="carousel-inner">
+                  
+                    <div class="carousel-item active">
+                        <img src="./assets/images/Miracle_Mets.png" class="d-block w-100" alt="Miracle_Mets">
+                        
+                        <div class="carousel-caption">
+                            <h5>Miracle Mets</h5>
+                            <p>
+                                In 1969, the New York Mets, a team considered one of the worst in the MLB at the time, 
+                                won the World Series against all odds.
+                            </p>
+                        </div>
+                    </div>
+                
+                    <div class="carousel-item">
+                        <img src="./assets/images/babe_Ruth.png" class="d-block w-100" alt="babe_Ruth">
+                        <div class="carousel-caption">
+                            <h5>Home Run Record</h5>
+                            <p>
+                                In 1927, Babe Ruth, set a record by hitting 60 home runs in a single season.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/images/Game_Red_socks.jpg" class="d-block w-100" alt="Game_Red_socks">
+                        <div class="carousel-caption">
+                            <h5>Game 6 of the 1986 World Series</h5>
+                            <p>
+                                The game was marked by a famous error by the Red Sox in the 10th inning, 
+                                allowing the Mets to win the World Series. 
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="./assets/images/Don_Larsen.jpg" class="d-block w-100" alt="Don_Larsen">
+                        <div class="carousel-caption">
+                            <h5>HDon Larsen's Perfect Game</h5>
+                            <p>
+                                Don Larsen of the New York Yankees achieved the rare feat of pitching
+                                against the Brooklyn Dodgers. 
+                            </p>
+                        </div>
+                    </div>
+
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselFeatures"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselFeatures"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                </div>
+            </div>
+        </section> 
+    </header>
+
+    
+    <section id="home" class="container mt-3 custom-padding-bg">
+        
+        <div class="d-md-flex py-3 align-items-center">
+ 
+            <article class="text-center text-md-start">
+                <h2>Blue Jays</h2>
+                <p class="lead">The Toronto Blue Jays are a Canadian professional baseball team based in Toronto. 
+                    The Blue Jays compete in Major League Baseball (MLB) 
+                    as a member club of the American League (AL) East division. Since 1989, 
+                    the team has played its home games primarily at Rogers Centre in downtown Toronto.
+                </p>
+                <p class="lead">
+                    The name "Blue Jays" originates from the bird of the same name, and blue is also the traditional colour of Toronto's 
+                    collegiate and professional sports teams including the Maple Leafs (ice hockey) and the Argonauts (Canadian football)
+                </p>
+
+                <button type="button" class="btn btn-custom-color text-white btn-lg my-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    Sign up now!
+                </button>
+            </article> 
+
+            <div class="modal fade text-black" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+       
+   
+                <div class="modal-dialog">
+               
+  
+                    <div class="modal-content">
+                      
+                        <form>
+                            
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="staticBackdropLabel">
+                                    Apply to the Blue jays Teams
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+
+                                 <div class="modal-body">
+                                
+                                <div class="mb-3">
+                                  
+                                    <label for="firstName" class="form-label">
+                                        First Name
+                                    </label>
+                                    
+                                    <input type="text" class="form-control" id="firstName">
+                                    
+                                    <div id="firstName_text" class="form-text">
+                                        Your full name.
+                                    </div>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="lastName" class="form-label">
+                                        Last Name
+                                    </label>
+                                    <input type="text" class="form-control" id="lastName">
+                                    <div id="lastName_text" class="form-text">
+                                        Your full name.
+                                    </div>
+                                </div>
+
+
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1">
+                                    <div id="emailHelp_1" class="form-text">
+                                        We'll never share your email with anyone
+                                        else.
+                                    </div>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="inputAddress1">Address 1</label>
+                                    <input type="text" class="form-control" id="inputAddress1"
+                                        placeholder="1234 Main St">
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="inputAddress2">Address 2</label>
+                                    <input type="text" class="form-control" id="inputAddress2"
+                                        placeholder="Apartment, studio, or floor">
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="inputCity">City</label>
+                                    <input type="text" class="form-control" id="inputCity">
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="provinceSelect">Province</label>
+                                    <select id="provinceSelect" class="form-select" aria-label="Default select example">
+                                        <option selected>Select your province</option>
+                                        <option value="AB">Alberta</option>
+                                        <option value="BC">British Columbia</option>
+                                        <option value="MB">Manitoba</option>
+                                        <option value="NB">New Brunswick</option>
+                                        <option value="NL">Newfoundland and Labrador</option>
+                                        <option value="NS">Nova Scotia</option>
+                                        <option value="ON">Ontario</option>
+                                        <option value="PE">Prince Edward Island</option>
+                                        <option value="QC">Quebec</option>
+                                        <option value="SK">Saskatchewan</option>
+                                        <option value="NT">Northwest Territories</option>
+                                        <option value="NU">Nunavut</option>
+                                        <option value="YT">Yukon</option>
+                                    </select>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="commentsTextarea" class="form-label">Comments</label>
+                            
+                                    <textarea class="form-control" aria-label="Your Message" id="commentsTextarea">
+                                        </textarea>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="submit" class="btn btn-custom-color text-white">Submit</button>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                           
+                            </div>
+                        </form>
+                    </div>
+                </div> 
+            </div>
+           
+            <img src="./assets/images/blue_jays_logo.jpg" alt="blue_jays_image"
+                class=" blue_jays_image w-50 img-fluid rounded d-none d-sm-block mx-3">
+        </div> 
+    </section>
+
+    <section id="highlights" class="container py-3">
+       
+        <div class="row text-center gap-2">
+           
+            <div class="col-md">
+                <div class="card">
+                    <div class="bg-custom-color">
+                        <i class="bi bi-trophy fs-1 text-white"></i>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Latest Blue Jays Updates</h5>
+                        <p class="card-text">
+                            Stay informed with the latest news, scores, and highlights from the Toronto Blue Jays.
+                        </p>
+                        <a href="#" class="btn btn-custom-color text-white">Read More</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md">
+                <div class="card">
+                    <div class="bg-custom-color">
+                        <i class="bi bi-person fs-1 text-white"></i>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Blue Jays Player Spotlight</h5>
+                        <p class="card-text">
+                            Get to know the standout players of the Toronto Blue Jays and their impressive achievements.
+                        </p>
+                        <a href="#" class="btn btn-custom-color text-white">Explore Players</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md">
+                <div class="card">
+                    <div class="bg-custom-color">
+                        <i class="bi bi-ticket fs-1 text-white"></i>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Blue Jays Ticket Info</h5>
+                        <p class="card-text">
+                            Find details on ticket availability, game schedules, and how to secure your seats for a Blue Jays match.
+                        </p>
+                        <a href="#" class="btn btn-custom-color text-white">Buy Tickets</a>
+                    </div>
+                </div>
+            </div>
+          
+        </div> 
+    </section> 
+
+    <section id="information" class="container">
+        <div class="row align-items-center">
+           
+            <div class="col-md border border-secondary rounded-3 bg-light p-2">
+                <h3>Baseball Training</h3>
+                <p>Join us to learn the fundamentals of baseball, including:</p>
+                <ul>
+                    <li>Hitting Techniques</li>
+                    <li>Pitching Skills</li>
+                    <li>Fielding Drills</li>
+                    <li>Game Strategy</li>
+                </ul>
+                <a class="btn btn-primary w-75 d-block m-auto btn-custom-color" href="#" role="button">
+                    Baseball training details
+                    <i class="bi-caret-right-fill"></i>
+                </a>
+            </div>
+
+            <div class="col-md">
+                <div class="d-flex justify-content-center">
+                    <img src="./assets/images/Baseball_training.jpg" class="d-block" alt="Baseball_training">
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row align-items-center">
+            <div class="col-md">
+                <div class="d-flex justify-content-center">
+                    <img src="./assets/images/mlb-history.jpg" class="d-block" alt="mlb-history">
+                </div>
+            </div>
+            <div class="col-md border border-secondary rounded-3 bg-light p-2">
+                <h3>MLB History</h3>
+                <p>Explore the rich history of Major League Baseball (MLB), including:</p>
+                <ul>
+                    <li>Iconic Players</li>
+                    <li>Championship Moments</li>
+                    <li>Hall of Fame</li>
+                    <li>Records and Stats</li>
+                </ul>
+                <a class="btn btn-primary w-75 d-block m-auto btn-custom-color" href="#" role="button">
+                    MLB history details
+                    <i class="bi-caret-right-fill"></i>
+                </a>
+            </div>
+        </div> 
+    </section>
+    
+
+    
+    <section id="coaches" class="container text-center">
+        <h2>Our Baseball Coaches</h2>
+        <p class="lead text-center">Meet our experienced baseball coaches</p>
+        <div class="row">
+    
+            <div class="col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="./assets/images/Bobby-Cox.jpg" class="card-img-top rounded-circle w-50 m-auto text-white" alt="Bobby Cox">
+                    <div class="card-body">
+                        <h5 class="card-title">Bobby Cox</h5>
+                        <p class="card-text">Former MLB manager with a wealth of experience in coaching and strategy.</p>
+                        <a href="#" class="btn btn-custom-color">
+                            <i class="bi-linkedin text-white"></i>
+                        </a>
+                        <a href="#" class="btn btn-custom-color">
+                            <i class="bi-github text-white"></i>
+                        </a>
+                        <a href="#" class="btn btn-custom-color">
+                            <i class="bi-facebook text-white"></i>
+                        </a>
+                        <a href="#" class="btn btn-custom-color">
+                            <i class="bi-twitter text-white"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="./assets/images/JoeTorre.jpg" class="card-img-top rounded-circle w-50 m-auto text-white" alt="Joe Torre">
+                    <div class="card-body">
+                        <h5 class="card-title">Joe Torre</h5>
+                        <p class="card-text">Legendary MLB manager, known for his leadership on and off the field.</p>
+                        <a href="#" class="btn btn-custom-color">
+                            <i class="bi-linkedin text-white"></i>
+                        </a>
+                        <a href="#" class="btn btn-custom-color">
+                            <i class="bi-github text-white"></i>
+                        </a>
+                        <a href="#" class="btn btn-custom-color">
+                            <i class="bi-facebook text-white"></i>
+                        </a>
+                        <a href="#" class="btn btn-custom-color">
+                            <i class="bi-twitter text-white"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="./assets/images/Tony-La-Russa.jpg" class="card-img-top rounded-circle w-50 m-auto text-white" alt="Tony La Russa">
+                    <div class="card-body">
+                        <h5 class="card-title">Tony La Russa</h5>
+                        <p class="card-text">Hall of Fame manager known for his strategic brilliance in baseball.</p>
+                        <a href="#" class="btn btn-custom-color">
+                            <i class="bi-linkedin text-white"></i>
+                        </a>
+                        <a href="#" class="btn btn-custom-color">
+                            <i class="bi-github text-white"></i>
+                        </a>
+                        <a href="#" class="btn btn-custom-color">
+                            <i class="bi-facebook text-white"></i>
+                        </a>
+                        <a href="#" class="btn btn-custom-color">
+                            <i class="bi-twitter text-white"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="./assets/images/Tommy-Lasorda.jpg" class="card-img-top rounded-circle w-50 m-auto" alt="Tommy Lasorda">
+                    <div class="card-body">
+                        <h5 class="card-title">Tommy Lasorda</h5>
+                        <p class="card-text">Iconic Dodgers manager known for his passion to the game of baseball.</p>
+                        <a href="#" class="btn btn-custom-color">
+                            <i class="bi-linkedin text-white"></i>
+                        </a>
+                        <a href="#" class="btn btn-custom-color">
+                            <i class="bi-github text-white"></i>
+                        </a>
+                        <a href="#" class="btn btn-custom-color">
+                            <i class="bi-facebook text-white"></i>
+                        </a>
+                        <a href="#" class="btn btn-custom-color">
+                            <i class="bi-twitter text-white"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+
+    <section id="faq">
+        <div class="container">
+            <h2 class="text-center">Frequently Asked Baseball Questions</h2>
+    
+            <div class="accordion" id="accordFAQ">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            What are the rules of baseball?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordFAQ">
+                        <div class="accordion-body">
+                            <p>Baseball has a rich set of rules governing everything from pitching to base-running. Familiarize yourself with the official MLB rulebook for detailed information.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Who are the greatest baseball players of all time?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordFAQ">
+                        <div class="accordion-body">
+                            <p>Baseball history is filled with legendary players such as Babe Ruth, Willie Mays, Hank Aaron, and many more. The greatest player is a matter of debate and personal preference.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            How can I improve my baseball skills?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordFAQ">
+                        <div class="accordion-body">
+                            <p>Improving your baseball skills requires practice, coaching, and dedication. Consider joining a local baseball team or seeking guidance from experienced coaches.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            How can I watch MLB games online?
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                        data-bs-parent="#accordFAQ">
+                        <div class="accordion-body">
+                            <p>You can watch MLB games online through various streaming services and the official MLB website. Check your local listings for options in your region.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="hall-of-fame" class="container">
+        <div class="text-center">
+            <h2>Blue Jays Hall of Fame</h2>
+            <p class="lead">Meet the Greatest Players in Blue Jays History</p>
+        </div>
+    
+        <div id="carouselHallOfFame" class="carousel slide bg-custom-color p-3" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/images/roberto_alomar.jpg"
+                        class="d-block m-auto w-25 rounded-circle p-1 border border-2 border-white" alt="Roberto Alomar">
+                    <div class="lead text-center text-white">
+                        <h5>Roberto Alomar</h5>
+                        <p>A legendary second baseman known for his Gold Gloves and All-Star appearances with the Blue Jays.</p>
+                    </div>
+                </div>
+    
+                <div class="carousel-item">
+                    <img src="./assets/images/Carter_Joe.jpg"
+                        class="d-block m-auto w-25 rounded-circle p-1 border border-2 border-white" alt=".Joe Carter">
+                    <div class="lead text-center text-white">
+                        <h5>Joe Carter</h5>
+                        <p>Famous for his walk-off home run in the 1993 World Series, Carter is a Blue Jays icon.</p>
+                    </div>
+                </div>
+    
+                <div class="carousel-item">
+                    <img src="./assets/images/Roy_halladay.jpg"
+                        class="d-block m-auto w-25 rounded-circle p-1 border border-2 border-white" alt=".Roy Halladay">
+                    <div class="lead text-center text-white">
+                        <h5>Roy Halladay</h5>
+                        <p>A dominant pitcher who won Cy Young Awards as a Blue Jay and is forever remembered in Toronto.</p>
+                    </div>
+                </div>
+    
+                <div class="carousel-item">
+                    <img src="./assets/images/carlos_delgado.jpg"
+                        class="d-block m-auto w-25 rounded-circle p-1 border border-2 border-white" alt="Carlos Delgado">
+                    <div class="lead text-center text-white">
+                        <h5>Carlos Delgado</h5>
+                        <p>A power-hitting first baseman who holds many Blue Jays franchise records.</p>
+                    </div>
+                </div>
+            </div>
+    
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselHallOfFame"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselHallOfFame"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+    
+            <div class="text-center">
+                <button type="button" data-bs-target="#carouselHallOfFame" data-bs-slide-to="0"
+                    class="active rounded-pill p-2 border" aria-current="true" aria-label="Slide 1">
+                </button>
+    
+                <button type="button" data-bs-target="#carouselHallOfFame" data-bs-slide-to="1"
+                    class="rounded-pill p-2 border" aria-label="Slide 2">
+                </button>
+    
+                <button type="button" data-bs-target="#carouselHallOfFame" data-bs-slide-to="2"
+                    class="rounded-pill p-2 border" aria-label="Slide 3">
+                </button>
+    
+                <button type="button" data-bs-target="#carouselHallOfFame" data-bs-slide-to="3"
+                    class="rounded-pill p-2 border" aria-label="Slide 4">
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="mt-3 container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2 class="text-center">Get in touch</h2>
+             
+                <form>
+                  
+                    <div class="mb-3">
+                        <label for="fullName" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" id="fullName" aria-describedby="fullNameHelp">
+                        <div id="fullNameHelp" class="form-text">
+                            Write your full name to be used when we contact you.
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail_1">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="messageTextarea" class="form-label">
+                            Your Message
+                        </label>
+                        <textarea class="form-control" aria-label="Your Message" id="messageTextarea">
+                        </textarea>
+                    </div>
+
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">
+                            Receive an update about our new courses!
+                        </label>
+                    </div>
+
+                    <button type="submit" class="btn btn-custom-color text-white">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+
+            <div class="col-md-6">
+                <h2 class="text-center">Contact Info</h2>
+
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item my-2">
+                        
+                        <span class="fw-bold">Our Location:</span>
+                        1 Blue Jays Way, Toronto, ON M5V 1J1
+                    </li>
+
+                    <li class="list-group-item my-2">
+                        <span class="fw-bold">General Enquiry Contact Number:</span>
+                        1-800-151-1003
+                    </li>
+
+                    <li class="list-group-item my-2">
+                        <span class="fw-bold">Student Care Centre Number:</span>
+                        1-800-301-0006
+                    </li>
+
+                    <li class="list-group-item my-2">
+                        <span class="fw-bold">General Enquiry Email:</span>
+                        info@MajorBaseballLeague.com
+                    </li>
+
+                    <li class="list-group-item my-2">
+                        <span class="fw-bold">Registration Email:</span>
+                        register@MajorBaseballLeague.com
+                    </li>
+                </ul>
+
+                <div class="text-center mt-3">
+                    <a href="#" class="btn btn-custom-color text-white">
+                        <i class="bi-linkedin"></i>
+                    </a>
+                    <a href="#" class="btn btn-custom-color text-white">
+                        <i class="bi-github"></i>
+                    </a>
+                    <a href="#" class="btn btn-custom-color text-white">
+                        <i class="bi-facebook"></i>
+                    </a>
+                    <a href="#" class="btn btn-custom-color text-white">
+                        <i class="bi-twitter"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ 
+    <section id="subscribe" class="bg-custom-color text-light mt-3 p-4 text-center">
+        <div class="container">
+            <h3>
+                Subscribe to our monthly newsletter to receive the updated news and events.
+            </h3>
+            <div class="input-group mb-3 rounded w-75 m-auto">
+            
+                <input type="text" class="form-control" placeholder="Your Email" aria-label="Recipient's username">
+                <button class="btn text-white bg-custom-btn-2" type="button" id="btn-subscribe">
+                    Subscribe
+                </button>
+            </div>
+        </div> 
+    </section> 
+
+    <footer class="bg-light p-5 pb-0 text-center">
+        <p class="mt-3 border-top">
+            Copyright &copy; 2023 Major baseball League - Mathys GUILLELMET
+        </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

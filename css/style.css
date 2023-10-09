@@ -1,0 +1,45 @@
+.blue_jays_image{
+    width: 380px;
+    height: 380px;
+    padding-left: 15px;
+}
+
+article h2,article p{
+    color: rgb(25,74,138);
+}
+
+.d-md-flex,.container mt-3 custom-padding-bg{
+    background-color: rgb(255, 255, 255);
+}
+
+.carousel-image-height{
+    height: 650px; 
+}
+
+.bg-custom-color,.btn-custom-color{
+    background-color: rgb(25,74,138);
+}
+
+.btn-custom-color:hover{
+    background-color:rgb(120, 152, 194);
+}
+ 
+.text-custom,.text-custom-title{
+    color: rgb(25,74,138);
+}
+
+.text-custom:hover{
+    color: rgb(120, 152, 194);
+}
+
+.bg-custom-btn-2{
+    background-color: rgb(234,52,37);
+}
+
+.bg-custom-btn-2:hover{
+    background-color: rgb(226, 91, 79);
+}
+
+ header img {
+    filter: brightness(0.5);
+  }
