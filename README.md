@@ -1,1 +1,1 @@
-link: [live demo](https://delta1260.github.io/Boostrap_Lab_Work/)
+link: [live demo](https://delta1260.github.io/Bootstrap_Lab_Work/)
